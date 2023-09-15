@@ -1,0 +1,25 @@
+<!-- <h1 class="text-xl font-bold mb-8"> Tables and party house</h1>
+        <div class="flex row ">
+            <%freshbagel2.forEach(function(Tableitem){ %>
+                <div class="w-64">
+                    <img class="h-40 mb-4 mx-auto" src="/static/images/<%= Tableitem.image%>" alt="marg">
+                    <div class="text-center">
+                        <h2 class="mb-4 text-lg"><%= Tableitem.name%></h2>
+                        <span class="size py-1 px-4 rounded-full uppercase text-xs"><%= Tableitem.capacity%></span>
+                        <div class="flex item-center justify-around mt-6">
+                            <span class="font-bold text-lg">₹<%= Tableitem.price%></span>
+                            <button data-pizza="<%= JSON.stringify(menuitem)%>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                                <span>+</span>
+                                <span class="ml-4">Add</span>
+                            </button>
+                        </div>
+    
+                    </div>
+                </div>
+            <%})%>
+            
+        </div> -->
+
+
+
+        <!-- <%= pizza.item.image %> -->

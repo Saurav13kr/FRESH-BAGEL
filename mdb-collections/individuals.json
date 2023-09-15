@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "61b8d3f479c305894bc55921"
+  },
+  "name": "Vegetarian tiffin",
+  "description": "Rice,2-Sabzi,Roti,Dal,Salad",
+  "image": "i-1.png",
+  "price": "100",
+  "size": "medium"
+},{
+  "_id": {
+    "$oid": "61b8d48279c305894bc55922"
+  },
+  "name": "Non-Vegetarian tiffin",
+  "description": "Rice,Chicken/Mutton,Sabzi,Roti,Dal,Salad",
+  "image": "i-3.png",
+  "price": "150",
+  "size": "Large"
+},{
+  "_id": {
+    "$oid": "61b8d4d679c305894bc55923"
+  },
+  "name": "Jain style tiffin",
+  "image": "i-2.png",
+  "description": "Rice,2-Sabzi,Roti,Dal",
+  "price": "80",
+  "size": "medium"
+},{
+  "_id": {
+    "$oid": "61b8d51479c305894bc55924"
+  },
+  "name": "Special tiffin",
+  "image": "i-4.png",
+  "description": "Rice,2-Sabzi,Special Sabzi,Naan,Dal,Salad,Papad",
+  "price": "200",
+  "size": "medium"
+},{
+  "_id": {
+    "$oid": "61b8d5c279c305894bc55925"
+  },
+  "name": "Family pack tiffin",
+  "description": "Rice,2-Sabzi,Special Sabzi,Naan,puri,Dal,Salad,Papad",
+  "image": "i-5.png",
+  "price": "400",
+  "size": "Extra Large"
+}]

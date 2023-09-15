@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "61a8fb009b922dcdf323f1ff"
+  },
+  "name": "Chicken nugget",
+  "image": "dish-2.png",
+  "price": "100",
+  "size": "medium"
+},{
+  "_id": {
+    "$oid": "61a8fc089b922dcdf323f200"
+  },
+  "name": "Margherita",
+  "image": "dish-4.png",
+  "price": "150",
+  "size": "large"
+},{
+  "_id": {
+    "$oid": "61a8fc259b922dcdf323f201"
+  },
+  "name": "Chicken",
+  "image": "dish-3.png",
+  "price": "250",
+  "size": "large"
+},{
+  "_id": {
+    "$oid": "61a8fc399b922dcdf323f202"
+  },
+  "name": "Fudge stuffed cokkie",
+  "image": "dish-5.png",
+  "price": "300",
+  "size": "small"
+},{
+  "_id": {
+    "$oid": "61a8fc539b922dcdf323f203"
+  },
+  "name": "Fried chicken",
+  "image": "dish-6.png",
+  "price": "200",
+  "size": "medium"
+}]

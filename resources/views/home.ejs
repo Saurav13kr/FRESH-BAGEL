@@ -1,0 +1,85 @@
+
+    <section class="hero py-16">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="w-1/2">
+                <h6 class="text-lg">Always in the mood for food</h6>
+                <h1 class="text-6xl font-bold">Fresh Bagel</h1>
+                <button class="px-6 py-2 rounded-full text-white font-bold mt-4 btn-primary">Order Now</button>
+            </div>
+            <div class="w-1/2">
+                <img src="/static/img/hero-img.png" alt="bada logo">
+            </div>
+        </div>
+    </section>
+    <section class="menu container mx-auto py-8">
+        <h1 class="text-xl font-bold mb-8">All foods</h1>
+        <div class="flex row ">
+            <%freshbagel.forEach(function(menuitem){ %>
+                <div class="w-64">
+                    <img class="h-40 mb-4 mx-auto" src="/static/images/<%= menuitem.image%>" alt="marg">
+                    <div class="text-center">
+                        <h2 class="mb-4 text-lg"><%= menuitem.name%></h2>
+                        <span class="size py-1 px-4 rounded-full uppercase text-xs"><%= menuitem.size%></span>
+                        <div class="flex item-center justify-around mt-6">
+                            <span class="font-bold text-lg">₹<%= menuitem.price%></span>
+                            <button data-pizza="<%= JSON.stringify(menuitem)%>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                                <span>+</span>
+                                <span class="ml-4">Add</span>
+                            </button>
+                        </div>
+    
+                    </div>
+                </div>
+            <%})%>
+            
+        </div>
+        <h1 class="text-xl font-bold mb-8 mt-10"> Tables and party halls</h1>
+        <div class="flex row ">
+            <%freshbagel1.forEach(function(Tableitem){ %>
+                <div class="w-64">
+                    <img class="h-40 mb-4 mx-auto" src="/static/images/<%= Tableitem.image%>" alt="marg">
+                    <div class="text-center">
+                        <h2 class="mb-4 text-lg"><%= Tableitem.name%></h2>
+                        <div class="mb-1"><span class="size  text-xs "><details><summary>Description</summary><p><%= Tableitem.description%></p></details></span> </div>
+                        <span class="size py-1 px-4 rounded-full uppercase text-xs"><%= Tableitem.capacity%></span>
+                        <div class="flex item-center justify-around mt-6">
+                            <span class="font-bold text-lg">₹<%= Tableitem.price%></span>
+                            <button data-pizza="<%= JSON.stringify(Tableitem)%>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                                <span>+</span>
+                                <span class="ml-4">Book</span>
+                            </button>
+                        </div>
+    
+                    </div>
+                </div>
+            <%})%>
+            
+        </div> 
+        <h1 class="text-xl font-bold mb-8 mt-10"> Tiffin Services</h1>
+        <div class="flex row ">
+            <%freshbagel2.forEach(function(Inditem){ %>
+                <div class="w-72">
+                    <img class="h-40 mb-4 mx-auto" src="/static/images/<%= Inditem.image%>" alt="marg">
+                    <div class="text-center">
+                        <h2 class="mb-4 text-lg"><%= Inditem.name%></h2>
+                        <div class="mb-1"><span class="size  text-xs"><details><summary>Description</summary><p><%= Inditem.description%></p></details></span> </div>
+                        <span class="size py-1 px-4 rounded-full uppercase text-xs"><%= Inditem.size%></span>
+                        <div class="flex item-center justify-around mt-6">
+                            <span class="font-bold text-lg">₹<%= Inditem.price%></span>
+                            <button data-pizza="<%= JSON.stringify(Inditem)%>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                                <span>+</span>
+                                <span class="ml-4">Add</span>
+                            </button>
+                        </div>
+    
+                    </div>
+                </div>
+            <%})%>
+            
+        </div> 
+        
+    </section>
+
+
+
+    

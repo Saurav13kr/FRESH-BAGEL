@@ -1,0 +1,34 @@
+body {
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+  height: 4000px;
+}
+
+nav li :last-child a {
+  background: #28c1c1;
+}
+
+nav li a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #28c1c1;
+}
+
+section.hero {
+  background: #F8F8F8;
+}
+
+.size {
+  background: #F8F8F8;
+}
+
+.add-to-cart {
+  border: 2px solid #28c1c1;
+  color: #28c1c1;
+  transition: all 0.3s ease-in-out;
+}
+.add-to-cart:hover {
+  background: #28c1c1;
+  border-color: #FFF;
+  color: #FFF;
+}

@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "61b8aeed79c305894bc55901"
+  },
+  "name": "Table-1",
+  "image": "t-1.png",
+  "description": "Location-1",
+  "price": "10",
+  "capacity": "4"
+},{
+  "_id": {
+    "$oid": "61b8af3279c305894bc55902"
+  },
+  "name": "Table-2",
+  "image": "t-2.png",
+  "description": "Location-2",
+  "price": "10",
+  "capacity": "4"
+},{
+  "_id": {
+    "$oid": "61b8af3c79c305894bc55903"
+  },
+  "name": "Table-3",
+  "image": "t-3.png",
+  "description": "Location-3",
+  "price": "10",
+  "capacity": "4"
+},{
+  "_id": {
+    "$oid": "61b8af8879c305894bc55904"
+  },
+  "name": "Party halL-1",
+  "image": "P-1.png",
+  "description": "Location-4",
+  "price": "4000",
+  "capacity": "80"
+},{
+  "_id": {
+    "$oid": "61b8af9679c305894bc55905"
+  },
+  "name": "Party halL-2",
+  "image": "P-2.png",
+  "description": "Location-5",
+  "price": "4000",
+  "capacity": "80"
+}]
